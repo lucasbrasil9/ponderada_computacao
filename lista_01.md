@@ -181,7 +181,7 @@ class Animal {
   }
 
   descrever() {
-    console.log('O animal se chama ${this.nome} e tem ${this.idade} anos.');
+    console.log(`O animal se chama ${this.nome} e tem ${this.idade} anos.`);
   }
 
   class Gato extends Animal {
@@ -298,6 +298,6 @@ class Professor extends Funcionário {
 var professor1 = new Professor('Claudio', 42, 2500, 'História', 25);
 var professor2 = new Professor('Júia', 38, 3000, 'Matemática', 20);
 
-console.log('O professor de ${professor1.disciplina} se chama ${professor1.nome} e seu salário: R$${professor1.calcularSalario()}');
-console.log('O professor de ${professor2.disciplina} se chama ${professor2.nome} e seu salário: R$${professor2.calcularSalario()}');
+console.log(`O professor de ${professor1.disciplina} se chama ${professor1.nome} e seu salário: R$${professor1.calcularSalario()}`);
+console.log(`O professor de ${professor2.disciplina} se chama ${professor2.nome} e seu salário: R$${professor2.calcularSalario()}`);
 ```
