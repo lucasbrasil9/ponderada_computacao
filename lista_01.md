@@ -235,7 +235,7 @@ class SomadorDeNotas{
   }
 
   verTotal() {
-    console.log('O total das notas é: ' this.total);
+    console.log('O total das notas é: ' + this.total);
   } 
 }
 
